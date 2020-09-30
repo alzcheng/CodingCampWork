@@ -7,11 +7,16 @@ nav {
 .nav-links {
   position: absolute;
   top: 50%;
+  right: 20px;
   transform: translate(0%, -50%);
 }
 
 .nav-links li {
   display: inline;
+}
+
+.nav-links li:not(:last-child) {
+  margin-right: 10px;
 }
 
 .nav-links li a {
